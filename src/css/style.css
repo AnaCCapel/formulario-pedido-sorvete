@@ -39,6 +39,6 @@ textarea {
     width: 80%;
     min-height: 40px; 
     border-radius: 8px;
-    background-color: var(-bg-form);
+    background-color: var(--bg-form);
     border: 2px dashed var(--primary-color);
 }
