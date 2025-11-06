@@ -28,8 +28,8 @@
                 <label for="nome">Seu nome:</label>
                 <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
 
+                <label for="sabor">Escolha o sabor:</label>
                 <div class="flavor">
-                    <label for="sabor">Escolha o sabor:</label>
                     <select id="sabor" name="sabor" required>
                         <option value="">Selecione...</option>
                         <option value="chocolate">Chocolate</option>
@@ -43,34 +43,32 @@
                     </select>
                 </div>
 
-                
+                <label>Tamanho:</label>
                 <div class="size">
-                    <label>Tamanho:</label>
                     <label><input type="radio" name="tamanho" value="pequeno" required> Pequeno</label>
                     <label><input type="radio" name="tamanho" value="medio"> Médio</label>
                     <label><input type="radio" name="tamanho" value="grande"> Grande</label>
                 </div>
 
-                
+                <label>Extras:</label>
                 <div class="topping">
-                    <label>Extras:</label>
                     <label><input type="checkbox" name="cobertura" value="chocolate"> Calda de Chocolate</label>
                     <label><input type="checkbox" name="cobertura" value="caramelo"> Calda de Caramelo</label>
                     <label><input type="checkbox" name="cobertura" value="morango"> Calda de Morango</label>
                     <label><input type="checkbox" name="cobertura" value="pistache"> Calda de Pistache</label>
                     <label><input type="checkbox" name="cobertura" value="chantilly"> Chantilly</label>
                     <label><input type="checkbox" name="cobertura" value="granulado"> Granulado Tradicional</label>
-                    <label><input type="checkbox" name="cobertura" value="granulado-colorido"> Granulado Colorido</label>
+                    <label><input type="checkbox" name="cobertura" value="granulado-colorido"> Granulado
+                        Colorido</label>
                     <label><input type="checkbox" name="cobertura" value="jujuba"> Jujuba</label>
-                     <label><input type="checkbox" name="cobertura" value="cereja"> Cereja</label>                    
+                    <label><input type="checkbox" name="cobertura" value="cereja"> Cereja</label>
                 </div>
 
+                <label for="observacoes">Observações:</label>
                 <div class="observation">
-                    <label for="observacoes">Observações:</label>
-                <textarea id="observacoes" name="observacoes" rows="3"
-                    placeholder="Ex: Sem lactose, adicionar morango..."></textarea>
+                    <textarea id="observacoes" name="observacoes" rows="8" cols="100"
+                        placeholder="Ex: Sem lactose, adicionar morango..."></textarea>
                 </div>
-                
 
                 <button type="submit">Enviar Pedido 🍧</button>
             </form>
