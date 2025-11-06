@@ -1,8 +1,7 @@
 :root {
     --font: "Comfortaa", sans-serif;
     --primary-color: #FFF085;
-    --second-color: #FFDCDC;
-    --font-color: #FF0B55;
+     --font-color: #FF0B55;
     --bg-header: rgb(140, 91, 63);
     --bg-form: rgb(255, 220, 220, 0.5);
     --bg-body: linear-gradient(90deg, rgba(140, 91, 63, 1) 0%, rgba(255, 247, 212, 1) 50%, rgba(248, 117, 170, 1) 100%);
